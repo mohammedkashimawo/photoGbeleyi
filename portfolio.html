@@ -32,81 +32,97 @@
 </head>
 <body>
 	<!-- Page Preloder -->
+
+
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
 
 	<!-- Header section  -->
-	<header class="header-section hs-bd">
-		<a href="index.html" class="site-logo"><img src="img/logo.png" alt="logo"></a>
+	<header class="header-section hs-bd" style="border:0px red solid">
+		<a href="index.html" class="site-logo"><i class="" 
+			style="
+			font-weight:bolder;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:black;font-size:30px;
+			">Photo</i><i   style="
+			font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:black;font-size:30px;
+			">Gbeleyi</i></a>
 		<div class="header-controls">
 			<button class="nav-switch-btn"><i class="fa fa-bars"></i></button>
 			<button class="search-btn"><i class="fa fa-search"></i></button>
 		</div>
-		<ul class="main-menu">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About the Artist </a></li>
+		<ul class="main-menu" style="border:0px red solid">
+			<li><a href="index.html" id="li">Home</a></li>
 			<li>
-				<a href="#">Portfolio</a>
+				<a href="about.html" id="li">About Us </a></li>
+			<li>
+				<a href="#" id="li">Portfolio</a>
 				<ul class="sub-menu">
-					<li><a href="portfolio.html">Portfolio 1</a></li>
-					<li><a href="portfolio-1.html">Portfolio 2</a></li>
-					<li><a href="portfolio-2.html">Portfolio 3</a></li>
+					<li><a href="portfolio.html" id="lolo">Events</a></li>
+					<li><a href="portfolio-1.html" id="lolo">Commercial</a></li>
+					<li><a href="portfolio-2.html" id="lolo ">Nature & Landscape</a></li>
+					<li><a href="portfolio-1.html" id="lolo">Studio</a></li>
+					<li><a href="portfolio-2.html" id="lolo">Wedding</a></li>
 				</ul>
 			</li>
-			<li><a href="blog.html">Blog</a></li>
-			<li><a href="elements.html">Elements</a></li>
-			<li><a href="contact.html">Contact</a></li>
-			<li class="search-mobile">
-				<button class="search-btn"><i class="fa fa-search"></i></button>
-			</li>
+			
+			<li><a href="#" id="li">Gallery</a></li>
+			<li><a href="contact.html" id="li">Contact</a></li>
+			
 		</ul>
 	</header>
+
+
 	<div class="clearfix"></div>
 	<!-- Header section end  -->
 
 	<!-- Portfolio section  -->
 	<div class="portfolio-section">
+		
 		<ul class="portfolio-filter controls text-center">
-			<li class="control" data-filter="all">All</li>
-			<li class="control" data-filter=".nature">Nature</li>
-			<li class="control" data-filter=".studio">Studio Photography</li>
-			<li class="control" data-filter=".weddings">Weddings</li>
-			<li class="control" data-filter=".lifestyle">Lifestyle</li>
-			<li class="control" data-filter=".fashion">Fashion</li>
+			<li class="control" data-filter="all">Commercial</li>
+			<li class="control" data-filter=".events">Events</li>
+			<li class="control" data-filter=".nature">Nature & Landscape</li>
+			<li class="control" data-filter=".studio">Studio</li>
+			<li class="control" data-filter=".weddings">Wedding</li>
+			
 		</ul>                                                           
 		<div class="row portfolio-gallery m-0">
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 nature">
-				<a href="img/portfolio/1.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/1.jpg"></a>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 events">
+				<a href="img/portfolio/1.jpg" class="portfolio-item img-popup set-bg"
+				 data-setbg="img/portfolio/1.jpg"></a>
 			</div>
 			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 studio">
-				<a href="img/portfolio/2.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/2.jpg"></a>
+				<a href="img/portfolio/2.jpg" class="portfolio-item img-popup set-bg"
+				 data-setbg="img/portfolio/2.jpg"></a>
 			</div>
 			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 weddings">
-				<a href="img/portfolio/3.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/3.jpg"></a>
-			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 lifestyle">
-				<a href="img/portfolio/4.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/4.jpg"></a>
-			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 fashion">
-				<a href="img/portfolio/5.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/5.jpg"></a>
+				<a href="img/portfolio/3.jpg" class="portfolio-item img-popup set-bg"
+				 data-setbg="img/portfolio/3.jpg"></a>
 			</div>
 			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 nature">
+				<a href="img/portfolio/4.jpg" class="portfolio-item img-popup set-bg"
+				 data-setbg="img/portfolio/4.jpg"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 nature">
+				<a href="img/portfolio/5.jpg" class="portfolio-item img-popup set-bg" 
+				data-setbg="img/portfolio/5.jpg"></a>
+			</div>
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 weddings">
 				<a href="img/portfolio/6.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/6.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 studio">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 events">
 				<a href="img/portfolio/7.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/7.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 weddings">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 nature">
 				<a href="img/portfolio/8.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/8.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 lifestyle">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 nature">
 				<a href="img/portfolio/9.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/9.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 fashion">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 events">
 				<a href="img/portfolio/10.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/10.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 nature">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 weddings">
 				<a href="img/portfolio/11.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/11.jpg"></a>
 			</div>
 			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 studio">
@@ -115,13 +131,13 @@
 			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 weddings">
 				<a href="img/portfolio/13.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/13.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 lifestyle">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 nature">
 				<a href="img/portfolio/14.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/14.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 fashion">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 events">
 				<a href="img/portfolio/15.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/15.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 nature">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 weddings">
 				<a href="img/portfolio/16.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/16.jpg"></a>
 			</div>
 			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 studio">
@@ -130,19 +146,19 @@
 			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 weddings">
 				<a href="img/portfolio/18.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/18.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 lifestyle">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 events">
 				<a href="img/portfolio/19.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/19.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 fashion">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 studio">
 				<a href="img/portfolio/20.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/20.jpg"></a>
 			</div>
 			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 nature">
 				<a href="img/portfolio/21.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/21.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 studio">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 weddings">
 				<a href="img/portfolio/22.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/22.jpg"></a>
 			</div>
-			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 lifestyle">
+			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0 weddings">
 				<a href="img/portfolio/23.jpg" class="portfolio-item img-popup set-bg" data-setbg="img/portfolio/23.jpg"></a>
 			</div>
 			<div class="mix col-xl-2 col-md-3 col-sm-4 col-6 p-0">
@@ -154,28 +170,7 @@
 	</div>
 	<!-- Portfolio section end  -->
 	
-	<!-- Footer section   -->
-	<footer class="footer-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-6 order-1 order-md-2">
-					<div class="footer-social-links">
-						<a href=""><i class="fa fa-pinterest"></i></a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-dribbble"></i></a>
-						<a href=""><i class="fa fa-behance"></i></a>
-					</div>
-				</div>
-				<div class="col-md-6 order-2 order-md-1">
-					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</div>	
-				</div>
-			</div>
-		</div>
-	</footer>
+	
 	<!-- Footer section end  -->
 
 	<!-- Search model -->
